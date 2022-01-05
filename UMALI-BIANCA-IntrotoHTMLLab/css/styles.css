@@ -1,0 +1,139 @@
+{
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+ul{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+    background-color: #f7e4d7
+}
+
+/*Navigation================================*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    max-width: 300px;
+    width: 100%
+    margin: auto;
+
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+  padding: 0px 35px;
+  margin: 0px 25px;
+  color: #3b3b3b;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: all ease 0.3s;
+
+}
+.logo{
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #202020;
+
+}
+.logo span{
+  color: #9A6947
+
+}
+.menu li a:hover,
+.menu .active{
+  color:#F46736;
+  transition: all ease 0.3s;
+}
+
+/*Search-banner================================*/
+#search-banner{
+    max-width: 1250px;
+    height: 500px;
+    border-radius: 300px;
+    background-color: #eecab1;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+.bg-1{
+  position: absolute;
+  left: -50px;
+  top: -150px;
+  width: 300px
+  height:300px
+  object-fit: contain;
+  object-position: center;
+}
+.amc{
+  width: 1px
+  height:1px
+  object-fit: contain;
+  object-position: center;
+
+
+}
+.search-banner-text{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 300px;
+  position: relative;
+
+}
+.search-banner-text-location{
+  width: 500px;
+  margin-left: 50px;
+  position: relative;
+
+}
+.search-banner-text-products{
+  width: 500px;
+  margin-left: 500px;
+  position: relative;
+
+}
+.search-banner-text-americano{
+  width: 500px;
+  margin-left: 100px;
+  position: relative;
+
+
+}
+
+/*==footer================================*/
+footer{
+    background-color: #1b1d1f;
+    padding: 100px 20px;
+    border-top: 5px solid #9A6947;
+}
+.footer-container{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+.footer-logo a{
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
